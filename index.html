@@ -13,11 +13,11 @@
 <body>
 	<div class="container-fluid">
 		<main class="main row">
-			<div class="content col-xs-8 col-xs-offset-2">
+			<div class="content col-xs-12">
 				<h1>Hello, Friend!</h1>
 				<h2>Our friendship is going to end in:</h2>
 
-				<div class="your-clock"></div>
+				<div class="your-clock col-xs-12"></div>
 
 				<div class="killSwitch btn-primary col-xs-5">
 					Kill Switch
@@ -25,6 +25,24 @@
 			</div>
 
 		</main>
+	</div>
+
+	<div class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Enter password</h4>
+				</div>
+				<div class="modal-body">
+					<input type="text" class="form-control password" placeholder="Password...">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-success checkPassword">Save Friendship</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<script src="js/jquery.min.js"></script>

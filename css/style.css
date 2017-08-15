@@ -35,10 +35,18 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	max-width: 100%;
 }
 
 
 .killSwitch {
 	font-size: 3em;
 	text-align: center;
+}
+
+
+.gif {
+	height: 100%;
+	width: 100%;
 }
