@@ -36,3 +36,9 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+
+.killSwitch {
+	font-size: 3em;
+	text-align: center;
+}
