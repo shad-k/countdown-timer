@@ -1,0 +1,24 @@
+html {
+	height: 100vh;
+	width: 100vw;
+}
+
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+
+.container-fluid {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+}
+
+
+.main {
+	background-color: #EA2832;
+	height: 100%;
+	margin: 0;
+}
