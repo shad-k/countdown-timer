@@ -6,6 +6,9 @@ $(function() {
 		status = "true";
 		localStorage.setItem("status", "true");
 	}
+	
+	// Making `status` false since "Friendship was saved" and I got Amazon Vouchers :-P
+	status = "false";
 
 	if(status === "true") {
 		var endDate = new Date("August 17, 2017 23:59:59");
